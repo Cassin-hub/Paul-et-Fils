@@ -1,0 +1,125 @@
+.main {
+    height: 50vh;
+}
+
+@media (min-width: 600px) {
+    .main {
+        display: flex;
+    }
+}
+
+@media (min-width: 600px) {
+    .div-main {
+        width: 75%;
+        height: 100%;
+    }
+}
+
+.title-main {
+    margin: 0;
+    text-align: center;
+    background-color: $orangeColor;
+    color: $whiteColor;
+    height: 100px;
+}
+
+@media (min-width: 600px) {
+    .title-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3em;
+        height: 100%;
+    }
+}
+
+.paragraph {
+    @include display
+}
+
+@media (min-width: 600px) {
+    .paragraph {
+        background-color: rgba(223, 222, 222, 0.274);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.p-main {
+    max-width: 50%;
+}
+
+
+.adresse {
+    @include display
+}
+
+@media (min-width: 600px) {
+    .adresse {
+        height: 70vh;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.title-adresse {
+    text-align: center;
+    color: $twoColor;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .title-adresse {
+        width: 30%;
+    }
+}
+
+@media (min-width: 600px) {
+    .info {
+        @include display;
+        width: 50%;
+    }
+}
+
+@media (min-width: 600px) {
+    .p-info {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    .secteur {
+        height: 30vh;
+    }
+}
+
+.title-secteur {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .title-secteur {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 600px) {
+    .div-secteur {
+        height: 80%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 600px) {
+    .p-secteur {
+        padding: 10px;
+    }
+}
+@media (min-width: 600px) {
+    .label-form {
+        display: block;
+       
+    }
+}

@@ -1,0 +1,425 @@
+.svg-title {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    .svg-title {
+        @include display;
+    }
+}
+
+
+.devis {
+    color: $twoColor;
+    background-color: $orangeColor;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    .devis {
+        font-weight: 700;
+        width: 15%;
+        display: flex;
+    }
+}
+
+.moving {
+    padding-right: 20px;
+    width: 40px;
+}
+
+@media (min-width: 600px) {
+    .moving {
+        padding-right: 0;
+    }
+}
+
+.hero-img {
+    background-image: url(/images/homme-carton-camionnette.webp);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+@media (min-width: 600px) {
+    .hero-img {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+    }
+}
+
+.div-hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+@media (min-width: 600px) {
+    .div-hero {
+        flex-direction: row;
+        width: 30%;
+    }
+}
+
+.p-hero {
+    font-size: 0.7em;
+}
+
+.white {
+    background-color: $twoColor;
+    color: $whiteColor;
+}
+
+@media (min-width: 600px) {
+    .white {
+        height: 100px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.black {
+    background-color: $orangeColor;
+    color: $twoColor;
+}
+
+@media (min-width: 600px) {
+    .black {
+        height: 100px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.demenagement {
+    height: 60vh;
+    background-color: $orangeColor;
+    @include display;
+}
+
+@media (min-width: 600px) {
+    .demenagement {
+        flex-direction: row;
+    }
+}
+
+.media-demenagement {
+    @include display
+}
+
+@media (min-width: 600px) {
+    .media-demenagement {
+        @include display
+    }
+}
+
+.carton {
+    width: 60%;
+    padding-top: 5px;
+}
+
+@media (min-width: 600px) {
+    .carton {
+        width: 30%;
+    }
+}
+
+.p-demenagement {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (min-width: 600px) {
+    .p-demenagement {
+        text-align: left;
+        max-width: 30%;
+    }
+}
+
+.styled {
+    border: 0;
+    color: $whiteColor;
+    background-color: $twoColor;
+}
+
+.styled:hover {
+    background-color: rgba(204, 204, 204, 0.393);
+}
+
+@media (min-width: 600px) {
+    .styled {
+        padding: 5px 20px 5px 20px;
+        margin-right: 80px;
+    }
+}
+
+.services {
+    @include display;
+}
+
+@media (min-width: 600px) {
+    .services {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 600px) {
+    .title-services {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+}
+
+.div-services {
+    @include display;
+}
+
+.img-services {
+    width: 60%;
+    padding-top: 10px;
+}
+
+.button-service {
+    border: 0;
+    background-color: $orangeColor;
+}
+
+.button-service:hover {
+    background-color: rgba(204, 204, 204, 0.393);
+}
+
+.confiance {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color: $whiteColor;
+}
+
+
+.img-confiance {
+    margin-top: 20px;
+    height: 30vh;
+    background-image: url(/images/2hommes-portent-un-meuble.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 600px) {
+    .img-confiance {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 600px) {
+    .p-confiance {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.distance {
+    margin: 0;
+    background-color: $twoColor;
+    color: $whiteColor
+}
+
+@media (min-width: 600px) {
+    .distance {
+        max-width: 33.33%;
+        padding: 50px;
+    }
+}
+
+
+.assurance {
+    margin: 0;
+    background-color: $orangeColor;
+    color: $whiteColor
+}
+
+@media (min-width: 600px) {
+    .assurance {
+        max-width: 33.33%;
+        padding: 50px;
+    }
+}
+
+.taux {
+    margin: 0;
+    background-color: $whiteColor
+}
+
+@media (min-width: 600px) {
+    .taux {
+        max-width: 33.33%;
+        padding: 50px;
+    }
+}
+
+.client {
+    padding-top: 20px;
+    @include display;
+}
+
+.jean {
+    margin-top: 0;
+}
+
+.logo {
+    @include display
+}
+
+@media (min-width: 600px) {
+    .logo {
+        flex-direction: row
+    }
+}
+
+.gratuit {
+    background-color: $orangeColor;
+}
+
+@media (min-width: 600px) {
+    .gratuit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
+
+@media (min-width: 600px) {
+    .div-gratuit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.ul-form {
+    margin: 0;
+    @include display;
+    padding: 0;
+}
+
+@media (min-width: 600px) {
+    .city {
+        display: flex;
+    }
+}
+
+@media (min-width: 600px) {
+    .date {
+        display: flex;
+    }
+}
+
+@media (min-width: 600px) {
+    .name {
+        display: flex;
+    }
+}
+
+
+.button-form {
+    border: 0;
+    background-color: $twoColor;
+    color: $whiteColor;
+}
+.button-form:hover {
+    background-color: rgba(200, 200, 200, 0.217);
+}
+@media (min-width: 600px) {
+    .button-form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 600px) {
+    .foot {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.div-foot {
+    padding-top: 10px;
+    @include display
+}
+
+@media (min-width: 600px) {
+    .div-foot {
+        align-items: flex-start;
+    }
+}
+
+
+.svg-foot {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook,
+.x,
+.youtube,
+.instagram {
+    padding: 5px;
+}
+
+.p-footer {
+    color: $whiteColor;
+}
+
+@media (min-width: 600px) {
+    .p-footer {
+        padding: 10px;
+    }
+}
+
+
+.facebook {
+    width: 20px;
+}
+.facebook:hover {
+    background-color: $orangeColor;
+}
+
+.x {
+    width: 20px;
+}
+.x:hover {
+    background-color: $orangeColor;
+}
+
+
+.youtube {
+    width: 20px;
+}
+.youtube:hover {
+    background-color: $orangeColor;
+}
+
+
+.instagram {
+    width: 20px;
+}
+.instagram:hover {
+    background-color: $orangeColor;
+}
